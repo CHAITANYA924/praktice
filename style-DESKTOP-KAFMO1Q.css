@@ -1,0 +1,49 @@
+.container{
+ width: 100vw;
+ height: 400px;
+ background-image: url("https://www.shutterstock.com/shutterstock/photos/1924674170/display_1500/stock-photo-aerial-view-of-london-bridge-crossing-the-river-thames-at-sunset-united-kingdom-1924674170.jpg");
+ background-repeat: no-repeat;
+ object-fit: cover;
+ background-position: center;
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.search{
+    border-radius: 9px ;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 5px;
+}
+.box-container{
+    position: relative;
+
+}
+.box1{
+    position: sticky;
+    bottom: 0;
+    left: 400px;
+    background-color:red ;
+}
+.box9{
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
